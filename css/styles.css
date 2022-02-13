@@ -10,6 +10,7 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/friends-display-link.css";
+@import "screens/chats.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

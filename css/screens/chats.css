@@ -1,0 +1,36 @@
+.chats-screen {
+  margin: 5px 20px;
+}
+.chats-screen__column {
+  margin: 0;
+}
+.chats-screen__comment-up {
+  position: relative;
+}
+.chats-screen__comment-down {
+  position: absolute;
+  top: 5px;
+  right: -8px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1.25px 4px;
+  font-size: 18px;
+  font-weight: 900;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chats-screen__column-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.chats-screen__alarm {
+  margin-top: 7px;
+  margin-right: 2px;
+  padding: 2.5px 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+}

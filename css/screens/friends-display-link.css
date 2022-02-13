@@ -2,14 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5px;
-  padding: 15px;
+  margin: 5px 0px;
+  padding: 20px;
   color: rgba(66, 66, 66, 0.3);
-  background-color: rgba(122, 122, 122, 0.03);
+  background-color: rgba(122, 122, 122, 0.05);
 }
 #friends-display-link :nth-child(2) {
   padding: 2px 5px;
   font-size: 16px;
   font-weight: 500;
   color: rgba(66, 66, 66, 0.7);
+}
+.friends-screen {
+  padding: 0px var(--horizen-width);
+}
+.friends-screen__channel {
+  border-top: 1px solid rgba(66, 66, 66, 0.1);
+  padding: 10px 0px;
+}
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(66, 66, 66, 0.4);
+}
+.friends-screen__channel-header:first-child {
+  font-size: 14px;
+  font-weight: 500;
 }
