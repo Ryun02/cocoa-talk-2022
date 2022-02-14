@@ -1,0 +1,111 @@
+.find-main {
+  margin-top: 40px;
+}
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.find-icon__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.find-icon__icon > span {
+  margin-top: 15px;
+  font-weight: 500;
+}
+.find-recommended-friends {
+  margin-top: var(--horizen-width);
+  border-top: var(--border);
+  height: 220px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.find-recommended-friends__title {
+  margin-top: 10px;
+}
+.find-recommended-friends__text {
+  display: block;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 18px;
+}
+.find-openchat {
+  border-top: var(--border);
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+.find-openchat div {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.find-openchat div:nth-child(2) {
+  color: rgba(0, 0, 0, 0.3);
+}
+.open-chat {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 7px;
+  border-bottom: var(--border);
+}
+.open-chat__column {
+  position: relative;
+}
+.open-chat__column-viewer img {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.open-chat__column-title {
+  font-weight: 600;
+  font-size: 17px;
+}
+.open-chat__column-tags {
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.open-chat__column-viewer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7px;
+}
+.open-chat__column-members {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14.5px;
+}
+.open-chat__column-viewer .divider {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}
+.open-chat__column-status {
+  color: rgba(182, 56, 199, 0.8);
+  font-weight: 500;
+}
+.open-chat__column > img {
+  width: 80px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.open-chat__column-heart {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 5px;
+  right: 4px;
+}

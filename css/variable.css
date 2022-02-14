@@ -3,4 +3,5 @@
   --darken-color: #47413f;
   --hidden-color: rgba(66, 66, 66, 0.2);
   --horizen-width: 25px;
+  --border: 1px solid rgba(0, 0, 0, 0.1);
 }

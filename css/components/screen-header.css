@@ -14,6 +14,18 @@
   justify-content: space-between;
   opacity: 0.8;
 }
-.screen-header__icons span {
+.screen-header__icons > span {
   margin-left: 20px;
+}
+.screen-header__position {
+  position: relative;
+}
+.screen-header__newalarm {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  padding: 1px;
+  border-radius: 50%;
+  background-color: tomato;
+  right: -6px;
 }
