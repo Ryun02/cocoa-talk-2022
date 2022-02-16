@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
+    <script
+      src="https://kit.fontawesome.com/67daed6461.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,7 +29,7 @@
 
     <header class="setting-screen__header">
       <div class="setting-screen__header-column">
-        <a href="more.html">
+        <a href="javascript:history.back();">
           <i class="fas fa-chevron-left icon-size__on-header"></i>
         </a>
       </div>
@@ -39,11 +43,137 @@
       </div>
     </header>
 
-    <main class="setting"></main>
+    <main class="setting-main">
+      <ul class="setting-square">
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-bullhorn setting-list-icon"></i>
+            <span>Notices</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-flask setting-list-icon"></i>
+            <span>Cocoa Lab</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-circle-exclamation setting-list-icon"></i>
+            <span>Vertion</span>
+          </div>
+          <div class="setting-list-side">
+            <span>Latest Version</span>
+          </div>
+        </li>
+      </ul>
 
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
+      <ul class="setting-square">
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-lock setting-list-icon"></i>
+            <span>Privacy</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-regular fa-bell setting-list-icon"></i>
+            <span>Notifications</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-regular fa-user setting-list-icon"></i>
+            <span>Friends</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-regular fa-comment setting-list-icon"></i>
+            <span>Chats</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-circle-half-stroke setting-list-icon"></i>
+            <span>Display</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-brush setting-list-icon"></i>
+            <span>Themes</span>
+          </div>
+          <div class="setting-list-side">
+            <span>Default theme</span>
+          </div>
+        </li>
+        <div class="setting-list__line"></div>
+        <li class="setting-list">
+          <div class="setting-list-element">
+            <i class="fa-solid fa-phone setting-list-icon"></i>
+            <span>Call</span>
+          </div>
+          <div class="setting-list-side">
+            <span></span>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__newalarm"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
