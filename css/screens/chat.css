@@ -1,3 +1,10 @@
-.chat-backcolor {
-  background-color: rgba(255, 255, 0, 1);
+#chat-screen {
+  background-color: #dba889;
+  height: 1100vh;
+}
+#chat-screen .setting-screen__header,
+#chat-screen .status-bar__column {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
