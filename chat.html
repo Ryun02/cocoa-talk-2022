@@ -9,9 +9,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - CocoaTalk</title>
+    <title>Chat w/Gryun - CocoaTalk</title>
   </head>
-  <body class="chat-backcolor">
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,7 +22,7 @@
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
@@ -39,9 +39,57 @@
       </div>
 
       <div class="setting-screen__header-column">
-        <i class="fas fa-search icon-size__on-header"></i>
-        <i class="fas fa-bars icon-size__on-header"></i>
+        <span><i class="fas fa-search icon-size__on-header"></i></span>
+        <span><i class="fas fa-bars icon-size__on-header"></i></span>
       </div>
     </header>
+
+    <main class="chat-message">
+      <div class="chat-message__system">
+        <span class="chat-message__system-text">Tuesday, June 30, 2020</span>
+      </div>
+
+      <div class="chat-message__opponent">
+        <img src="screenshot/dog.jpg" />
+        <div class="message-contents">
+          <div class="message-name">Gryun</div>
+          <div class="message-info">
+            <span class="message-comment message-opponent__radius">
+              Thanks! You are invited my project!
+            </span>
+            <span class="message-time">16:29</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-message__user">
+        <div class="message-contents">
+          <div class="message-info">
+            <span class="message-time">16:29</span>
+            <span class="message-comment message-user__radius">
+              Don’t mention it.
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus reply-icon-size"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile reply-icon-size"></i>
+        <button>
+          <div>
+            <i class="fa-solid fa-arrow-up-long reply-icon-size"></i>
+          </div>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅜㅜ</span>
+    </div>
   </body>
 </html>

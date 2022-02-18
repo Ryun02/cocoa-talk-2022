@@ -1,0 +1,63 @@
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply__column:first-child {
+  width: 10%;
+}
+.reply__column:last-child {
+  width: 90%;
+}
+.reply input {
+  height: 25px;
+  width: 100%;
+  border: var(--border);
+  border-radius: 20px;
+}
+.reply__column i {
+  opacity: 0.5;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  top: 9.5px;
+}
+.reply__column:last-child > i {
+  right: 40px;
+}
+.reply-icon-size {
+  font-size: 19px;
+}
+.reply__column button {
+  background-color: #fac058;
+  padding: 11px;
+  border-radius: 50%;
+  width: 20px;
+  right: 8px;
+  border: none;
+}
+.reply__column button > div {
+  position: relative;
+}
+.reply__column button > div > i {
+  position: absolute;
+  bottom: -7px;
+  right: -4.9px;
+  opacity: 1;
+  font-size: 14px;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
+.reply:focus-within input {
+  width: 98vw;
+  transform: translateX(-10%);
+}

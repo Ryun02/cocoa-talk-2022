@@ -1,15 +1,32 @@
 .setting-screen__header {
-  padding-top: 50px;
+  padding: 0px 25px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
 }
 .setting-screen__header-column {
-  margin: 0px 25px;
   font-size: 24px;
   font-weight: 550;
 }
 .setting-screen__header-column > i {
   color: rgba(66, 66, 66, 1);
+}
+.setting-screen__header-column {
+  width: 33%;
+}
+.setting-screen__header-column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.setting-screen__header-column:nth-child(2) {
+  text-align: center;
+}
+.setting-screen__header-column:first-child {
+  margin-right: auto;
+}
+.setting-screen__header-column span:last-child {
+  margin-left: 15px;
 }
 .setting-main {
   margin: 0px 25px;
